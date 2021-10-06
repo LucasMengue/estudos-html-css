@@ -80,3 +80,21 @@ nav a {
   text-transform: uppercase;
   margin-right: 0.5rem;
 }
+
+main {
+  background-color: #ffffff;
+}
+
+main h1 {
+  color: var(--cor5);
+  font-family: var(--fonte-android);
+}
+
+main h2 {
+  font-family: var(--fonte-android);
+}
+
+footer {
+  background-color: var(--cor5);
+  color: #ffffff;
+}
