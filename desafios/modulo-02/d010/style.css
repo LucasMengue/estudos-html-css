@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: var(--fonte0);
+  font-family: var(--fonte-padrao);
   background-color: var(--cor0);
 }
 
@@ -34,9 +34,9 @@ header {
   background-image: linear-gradient(var(--cor2), var(--cor5));
 }
 
-header h1 {
+header > h1 {
   color: #ffffff;
-  font-family: var(--fonte1);
+  font-family: var(--fonte-destaque);
   font-size: 48px;
   text-transform: uppercase;
   text-align: center;
@@ -44,8 +44,8 @@ header h1 {
   margin-bottom: 1rem;
 }
 
-header p {
-  color: var(--cor2);
+header > p {
+  color: #ffffff;
   text-align: center;
   font-weight: bold;
 }
