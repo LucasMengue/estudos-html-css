@@ -55,16 +55,6 @@ span {
   font-weight: bold;
 }
 
-a {
-  color: var(--cor2);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 nav {
   background-color: var(--cor5);
   width: 100%;
