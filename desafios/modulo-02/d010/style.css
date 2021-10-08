@@ -28,6 +28,10 @@ body {
   background-color: var(--cor0);
 }
 
+a.externo::after {
+  content: "\00A0\1F517";
+}
+
 header {
   min-height: 150px;
   padding-top: 40px;
